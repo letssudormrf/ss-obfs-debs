@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 14 Sep 2017 19:27:51 -0700
+Source: shadowsocks-libev
+Binary: shadowsocks-libev libshadowsocks-libev-dev libshadowsocks-libev2
+Architecture: amd64
+Version: 3.1.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: Roger Shimizu <rogershimizu@gmail.com>
+Changed-By: Max Lv <max.c.lv@gmail.com>
+Description:
+ libshadowsocks-libev-dev - lightweight and secure socks5 proxy (development files)
+ libshadowsocks-libev2 - lightweight and secure socks5 proxy (shared library)
+ shadowsocks-libev - lightweight and secure socks5 proxy
+Changes:
+ shadowsocks-libev (3.1.0-1) unstable; urgency=low
+ .
+   * Replace libudns with libc-ares.
+Checksums-Sha1:
+ 0e5c6c10a9d85d7ea02a6abc35ca85f374e99847 8378 libshadowsocks-libev-dev_3.1.0-1_amd64.deb
+ 440b30c0c8548c3c84f9c4d08bcef5cab22e4d68 80826 libshadowsocks-libev2_3.1.0-1_amd64.deb
+ c204ebfef150e1eb164a1c2e04f3baac7070c19d 186308 shadowsocks-libev_3.1.0-1_amd64.deb
+Checksums-Sha256:
+ 13c0e24a41bf380d035b3a7f0015dbbb454b42de0263da6eb90fcf7011f98ea9 8378 libshadowsocks-libev-dev_3.1.0-1_amd64.deb
+ ffea34f33518bb8bd244093aae7ae0bd24b853c1b21a841d273eded482aab2c7 80826 libshadowsocks-libev2_3.1.0-1_amd64.deb
+ cf79b8bf6bcd94ffc8d9fc2b19a6b3be7e22d41f37f9c2c3db6024ca3e4e5043 186308 shadowsocks-libev_3.1.0-1_amd64.deb
+Files:
+ 432cf950988d95bab157a21b07d1f0bb 8378 libdevel extra libshadowsocks-libev-dev_3.1.0-1_amd64.deb
+ 10c02a8b88e4117414b6576e8454d111 80826 libs extra libshadowsocks-libev2_3.1.0-1_amd64.deb
+ ba4eb86629fcc5daedebb4a7c267d257 186308 net extra shadowsocks-libev_3.1.0-1_amd64.deb
